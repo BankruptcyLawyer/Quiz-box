@@ -11,8 +11,9 @@
     <div class="wrapper__content">
       <header class="header">
         <div class="container header__container">
-          <a href="#" class="logo"></a>
+          <a href="#" class="logo">
             <h2 class="logo__text">Quiz-box</h2>
+          </a>
           <nav class="menu">
             <ul class="menu__list">
               <li class="menu__item">
@@ -29,10 +30,6 @@
           <address class="contacts">
             <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
             <div class="contacts__info">График работы</div>
-            <ul class="contacts__work-time">
-                <li><p class="contacts__work-time">пн-вс: 09:00 - 20:00</p></li>
-                <li><p class="contacts__work-time">Обед: 14:00-14:30</p></li>
-            </ul>
           </address>
         </div>
       </header>
@@ -45,7 +42,7 @@
           </div>
         </section>
         <section class="offers">
-          <div class="container offers_container">
+          <div class="container offers__container">
             <h2 class="title">Новинки недели</h2>
             <ul class="offers__list">
               <li class="offers__item">
@@ -54,12 +51,12 @@
                   <h3 class="offers__title">Музыкальная игра</h3>
                   <ul class="offers__features">
                     <li class="offers__feature">
-                      <img src="" alt="" class="offers_feature icon">
-                      <div class="offers__feature text">90 минут</div>
+                      <img src="" alt="" class="offers__feature-icon">
+                      <div class="offers__feature-text">90 минут</div>
                     </li>
                     <li class="offers__feature">
-                      <img src="" alt="" class="offers_feature icon">
-                      <div class="offers__feature text">70 вопросов</div>
+                      <img src="" alt="" class="offers__feature-icon">
+                      <div class="offers__feature-text">70 вопросов</div>
                     </li>
                   </ul>
                   <p class="offers__text">Равным образом постоянное
@@ -74,12 +71,12 @@
                   <h3 class="offers__title">Назад в 90-е</h3>
                   <ul class="offers__features">
                     <li class="offers__feature">
-                      <img src="" alt="" class="offers_feature icon">
-                      <div class="offers__feature text">90 минут</div>
+                      <img src="" alt="" class="offers__feature-icon">
+                      <div class="offers__feature-text">90 минут</div>
                     </li>
                     <li class="offers__feature">
-                      <img src="" alt="" class="offers_feature icon">
-                      <div class="offers__feature text">70 вопросов</div>
+                      <img src="" alt="" class="offers__feature-icon">
+                      <div class="offers__feature-text">70 вопросов</div>
                     </li>
                   </ul>
                   <p class="offers__text">Равным образом постоянное
@@ -94,12 +91,12 @@
                   <h3 class="offers__title">IT-Викторина</h3>
                   <ul class="offers__features">
                     <li class="offers__feature">
-                      <img src="" alt="" class="offers_feature icon">
-                      <div class="offers__feature text">90 минут</div>
+                      <img src="" alt="" class="offers__feature-icon">
+                      <div class="offers__feature-text">90 минут</div>
                     </li>
                     <li class="offers__feature">
-                      <img src="" alt="" class="offers_feature icon">
-                      <div class="offers__feature text">70 вопросов</div>
+                      <img src="" alt="" class="offers__feature-icon">
+                      <div class="offers__feature-text">70 вопросов</div>
                 </li>
                   </ul>
                   <p class="offers__text">Равным образом постоянное
@@ -113,7 +110,7 @@
         </section>
 
         <section class="past">
-          <div class="container past_container">
+          <div class="container past__container">
             <h2 class="past__title">Прошедшие игры</h2>
               <ul class="past__list">
                 <li class="past__item">
@@ -135,41 +132,36 @@
                   </div>
                 </li>
               </ul>
-              <div class="past__paginator">
-                <div class="past__count">Страница 1 из 7</div>
-                <div class="past__prev-symbol"><</div>
-                <ul class="past__list">
-                  <li class="past__list">1</li>
-                  <li class="past__list">2</li>
-                  <li class="past__list">3</li>
-                  <li class="past__list">4</li>
-                  <li class="past__list">5</li>
-                  <li class="past__list">6</li>
-                  <li class="past__list">7</li>
+              <div class="paginator">
+                <div class="paginator__count">Страница 1 из 7</div>
+                <ul class="paginator__list">
+                  <li><a href="#" class="paginator__page">1</a></li>
+                  <li><a href="#" class="paginator__page">2</a></li>
+                  <li><a href="#" class="paginator__page">3</a></li>
+                  <li><a href="#" class="paginator__page">4</a></li>
+                  <li><a href="#" class="paginator__page">5</a></li>
+                  <li><a href="#" class="paginator__page">6</a></li>
+                  <li><a href="#" class="paginator__page">7</a></li>
                 </ul>
-                <div class="past__next-symbol">></div>
               </div>
           </div>
         </section>
         <section class="about">
-          <div class="about__item">
+          <div class="container about__container">
             <img src="" alt="" class="about__img">
-          </div>
-          <div class="about__info">
-            <h1 class="about__title">О нас</h1>
-            <ul class="about__paragraphs">
-              <p class="about__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру</p>
-              <p>сгенерировать несколько абзацев более менее осмысленого</p>
-              <p>текста рыб на русском языке, а начинающему оратору</p>
-              <p>отточить навык публичных выступлений в домашних</p>
-              <p>условиях</p>
-            </ul>
+            <div class="about__info">
+              <h2 class="about__title">О нас</h2>
+              <p class="about__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленого текста рыб на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях</p>
+              <a href="#" class="button">Подробнее</a>
+            </div>
           </div>
         </section>
       </div>
+    </div>
       <footer class="footer">
-        <a href="#" class="logo"></a>
-        <h2 class="logo__text">Quiz-box</h2>
+        <a href="#" class="logo">
+          <h2 class="logo__text">Quiz-box</h2>
+        </a>
       <nav class="menu">
         <ul class="menu__list">
           <li class="menu__item">
@@ -185,30 +177,31 @@
       </nav>
       <ul class="social">
         <li class="social__item">
-          <a href="#" class="social__link"></a>
+          <a href="#" class="social__link">
             <img src="" alt="" class="social__img">
+          </a>
         </li>
         <li class="social__item">
-          <a href="#" class="social__link"></a>
+          <a href="#" class="social__link">
             <img src="" alt="" class="social__img">
+          </a>
         </li>
         <li class="social__item">
-          <a href="#" class="social__link"></a>
+          <a href="#" class="social__link">
             <img src="" alt="" class="social__img">
+          </a>
         </li>
         <li class="social__item">
-          <a href="#" class="social__link"></a>
+          <a href="#" class="social__link">
             <img src="" alt="" class="social__img">
+          </a>
         </li>
         </ul>
-      <address class="contacts">
-        <ul class="contacts__item>
-          <li class "contacts__item><p class="contacts__info">Бесплатный звонок по России</p></li>
-          <li class "contacts__item><a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a></li>
-        </ul>
-      </address>
+        <address class="contacts">
+          <div class="contacts__info">Бесплатный звонок по России</div>
+          <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+        </address>
       </footer>
-    </div>
   </div>
 </body>
 </html>
