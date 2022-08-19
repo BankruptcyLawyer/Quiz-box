@@ -1,0 +1,41 @@
+.about__container{
+  display: flex;
+}
+.about__info:before{
+  content:"";
+  display: block;
+  width: 488px;
+  height: 502px;
+  background: url("../about.png") center center / cover no-repeat;
+  position: absolute;
+  right: 652px;
+  bottom: 56px;
+  z-index: -1; 
+}
+.about__info{
+  padding: 91px 90px;
+  background: linear-gradient(45deg,#8F00FF, #148CFF);
+  display: inline-block;
+  vertical-align: bottom;
+  position: relative;
+  width:789px;
+  left: 348px;
+  border-radius: 5px;
+  margin-bottom: 36px;
+}
+.about__title{
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 37px;
+  position:relative;
+  bottom: 26px;
+  right: 5px;
+}
+.about__text{
+  margin-bottom: 60px;
+  width: 502px;
+  position:relative;
+  bottom: 21px;
+  line-height: 1.6;
+  right: 5px;
+}

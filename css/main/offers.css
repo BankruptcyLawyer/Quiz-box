@@ -1,0 +1,73 @@
+.offers__main{
+  font-size: 36px;
+  }
+  .offers__news{
+    margin-bottom: 49px;
+    display: flex;
+    align-items: center;
+  }
+  .offers__new-img{
+    display:block;
+    height: 100%;
+    margin-left: 12px;
+  }
+  .offers__title{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 13px;
+    margin-left: 21px;
+    margin-top: 26px;
+    color: #000000;
+  }
+  .offers__list{
+    width: 1143px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: -8px;
+  }
+  .offers__item{
+    min-height: 448px;
+    width: calc(100% / 3 - 18px);
+    background: #FFFFFF;
+    border-radius: 5px;
+  }
+  .offers__item:last-child{
+    margin-right: 0;
+  }
+  .offers__img{
+    width: 364px;
+    max-height: 144px;
+  }
+  .offers__features{
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .offers__feature{
+    color: #000000;
+  }
+  .offers__feature:last-child{
+    margin-right: 0px;
+  }
+  .offers__header{
+    overflow: hidden;
+  }
+  .offers__feature-text{
+    color: #666666;
+    font-size: 16px;
+  }
+  .offers__text{
+    color:#303030;
+    font-size: 14px;
+    margin-left: 22px;
+    margin-bottom: 23px;
+  }
+  .offers__feature-icon{
+    /* width:25%; */
+  }
+  .offers__content{
+    padding-right: 18px;
+  }
+  .offers{
+    margin-bottom: 123px;
+  }
