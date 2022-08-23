@@ -1,0 +1,25 @@
+.header__background{
+  filter: grayscale(100%);
+  position: relative;
+  z-index: -10;
+}
+.header__background-img{
+  position: absolute;
+  top: -27px;
+  left: -188px;
+  min-width: 1920px;
+  height: auto;
+}
+.about__background{
+  position: relative;
+  filter:grayscale(100%);
+  z-index: -10;
+}
+.about__background-image{
+  width: 100%;
+  position: absolute;
+  min-width: 1920px;
+  height: auto;
+  bottom: -507px;
+  left: -182px;
+}
