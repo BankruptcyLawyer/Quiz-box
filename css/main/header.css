@@ -63,5 +63,48 @@ margin-right: 62px;
 .contacts__phone{
   text-decoration: none;
   font-size: 26px;
-
+}
+.dropdown{
+  position: relative;
+}
+.dropdown__content {
+  position: absolute;
+  background: #EDEDED;
+  color: #1E1F20;
+  font-size: 13px;
+  border-radius: 5px;
+  padding: 13px;
+  width: 160px;
+  top: 100%;
+}
+.dropdown:hover .dropdown__menu {
+  opacity: 1;
+}
+.dropdown__triangle{
+  width: 0; 
+  height: 0; 
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid #EDEDED;
+  position: absolute;
+  right: -122px;
+  bottom: -4px;
+}
+.dropdown__menu{
+  margin-left: 33px;
+  position: absolute;
+  top: 27px;
+  text-align: left;
+  opacity: 0;
+  transition: .4s;
+}
+.dropdown__menu:before{
+  content: "";
+  display: block;
+  height: 20px;
+  width: 171px;
+  left: 0;
+  right: 0;
+  top: -29px;
+  position: absolute;
 }

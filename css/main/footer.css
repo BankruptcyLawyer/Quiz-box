@@ -48,6 +48,53 @@ hr{
   height: 90px;
   margin-top: 47px;
 }
-.social__img:hover{
-  filter:brightness(300%);
+.social__img{
+  width: 36px;
+  height: 36px;
+  /* position: relative; */
+}
+.social__img--tg{
+  width: 36px; height: 36px;
+  background: url("../../images/social_sprites_all.png") -122px -66px;
+}
+.social__img--vk{
+  width: 36px; height: 36px;
+  background: url("../../images/social_sprites_all.png") -66px -122px;
+}
+.social__img--fb{
+  width: 36px; height: 36px;
+  background: url("../../images/social_sprites_all.png") -10px -10px;
+}
+.social__img--inst{
+  width: 36px; height: 36px;
+  background: url("../../images/social_sprites_all.png") -122px -10px;
+}
+.social__img--tg:hover{
+  content:"";
+  width: 36px; height: 36px;
+  background: url("../../images/social_sprites_all.png") -66px -66px;
+}
+.social__img--vk:hover{
+  width: 36px; height: 36px;
+  background: url("../../images/social_sprites_all.png") -10px -122px;
+}
+.social__img--fb:hover{
+  width: 36px; height: 36px;
+  background: url("../../images/social_sprites_all.png") -66px -10px;
+}
+.social__img--inst:hover{
+  width: 36px; height: 36px;
+  background: url("../../images/social_sprites_all.png") -10px -66px;
+}
+.social__img--tg:hover{
+  background-position: -66px -66px;
+}
+.social__img--vk:hover{
+  background-position: -10px -122px;
+}
+.social__img--fb:hover{
+  background-position: -66px -10px;
+}
+.social__img--inst:hover{
+  background-position: -10px -66px;
 }

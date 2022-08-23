@@ -46,3 +46,6 @@ body{
     min-height: 100%;
     position: relative;
  }
+ :hover{
+    transition: 1s;
+ }
