@@ -38,11 +38,10 @@ margin-right: 62px;
 }
 .menu__link{
   font-size: 16px;
-
 }
 
 .menu__link:hover{
-  color: #ffffff
+  color: #8F00FF
 }
 .menu{
  display: flex;
@@ -59,6 +58,10 @@ margin-right: 62px;
   font-size: 13px;
   text-decoration: underline;
   margin-top: -9px;
+  color:#98A4A8;
+}
+.contacts__info:hover{
+  color:#ffffff;
 }
 .contacts__phone{
   text-decoration: none;
@@ -66,6 +69,7 @@ margin-right: 62px;
 }
 .dropdown{
   position: relative;
+  /* display: inline-block; */
 }
 .dropdown__content {
   position: absolute;
@@ -79,6 +83,7 @@ margin-right: 62px;
 }
 .dropdown:hover .dropdown__menu {
   opacity: 1;
+  margin-left: 33px;
 }
 .dropdown__triangle{
   width: 0; 
@@ -91,12 +96,12 @@ margin-right: 62px;
   bottom: -4px;
 }
 .dropdown__menu{
-  margin-left: 33px;
   position: absolute;
   top: 27px;
   text-align: left;
   opacity: 0;
-  transition: .4s;
+  transition: opacity .4s;
+  margin-left: -9999px;
 }
 .dropdown__menu:before{
   content: "";
@@ -105,6 +110,6 @@ margin-right: 62px;
   width: 171px;
   left: 0;
   right: 0;
-  top: -29px;
+  top: -11px;
   position: absolute;
 }

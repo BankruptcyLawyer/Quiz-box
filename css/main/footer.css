@@ -7,6 +7,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 49px;
 }
 .footer__center{
   display: flex;
@@ -54,40 +55,52 @@ hr{
   /* position: relative; */
 }
 .social__img--tg{
+  opacity:0.5;
   width: 36px; height: 36px;
-  background: url("../../images/social_sprites_all.png") -122px -66px;
+  background: url("../../images/social_sprites_all.png") -66px -66px;;
 }
 .social__img--vk{
-  width: 36px; height: 36px;
-  background: url("../../images/social_sprites_all.png") -66px -122px;
-}
-.social__img--fb{
-  width: 36px; height: 36px;
-  background: url("../../images/social_sprites_all.png") -10px -10px;
-}
-.social__img--inst{
-  width: 36px; height: 36px;
-  background: url("../../images/social_sprites_all.png") -122px -10px;
-}
-.social__img--tg:hover{
-  content:"";
-  width: 36px; height: 36px;
-  background: url("../../images/social_sprites_all.png") -66px -66px;
-}
-.social__img--vk:hover{
+  opacity:0.5;
   width: 36px; height: 36px;
   background: url("../../images/social_sprites_all.png") -10px -122px;
 }
-.social__img--fb:hover{
+.social__img--fb{
+  opacity:0.5;
   width: 36px; height: 36px;
   background: url("../../images/social_sprites_all.png") -66px -10px;
 }
-.social__img--inst:hover{
+.social__img--inst{
+  opacity:0.5;
   width: 36px; height: 36px;
   background: url("../../images/social_sprites_all.png") -10px -66px;
 }
 .social__img--tg:hover{
+  opacity: 1;
+  width: 36px; height: 36px;
+  background: url("../../images/social_sprites_all.png") -66px -66px;
+  transition: 1s;
+}
+.social__img--vk:hover{
+  opacity: 1;
+  width: 36px; height: 36px;
+  background: url("../../images/social_sprites_all.png") -10px -122px;
+  transition: 1s;
+}
+.social__img--fb:hover{
+  opacity: 1;
+  width: 36px; height: 36px;
+  background: url("../../images/social_sprites_all.png") -66px -10px;
+  transition: 1s;
+}
+.social__img--inst:hover{
+  opacity: 1;
+  width: 36px; height: 36px;
+  background: url("../../images/social_sprites_all.png") -10px -66px;
+  transition: 1s;
+}
+/* .social__img--tg:hover{
   background-position: -66px -66px;
+  transition: .1s;
 }
 .social__img--vk:hover{
   background-position: -10px -122px;
@@ -97,4 +110,4 @@ hr{
 }
 .social__img--inst:hover{
   background-position: -10px -66px;
-}
+} */

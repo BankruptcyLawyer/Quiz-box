@@ -64,13 +64,23 @@
   text-decoration: none;
   font-weight: bold;
   line-height: 32px;
+  border-radius: 50%;
+}
+.paginator__item--purple{
+  /* background:#8F00FF; */
+  border-radius: 50%;
+  transition: background-color 1s;
+  /* border-radius: 50%; */
 }
 .paginator__item--purple:hover{
-background:#8F00FF;
-border-radius: 50%;
+  background:#8F00FF;
+  transition: 1s;
+/* border-radius: 50%; */
+
 }
 .services__paginator--dark{
   color:#000000;
   padding-top: 5px;
   margin-bottom: 83px;
+  transition: .1s;
 }

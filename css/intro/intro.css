@@ -4,10 +4,9 @@
   top: 0;
   left: 0;
   /* width: 100%; */
-  height: 742px;
+  height: 916px;
   align-items: center;
   justify-content: center;
-  /* background: url("../../images/intro.png") center bottom / cover no-repeat; */
 }
 
 .central{
@@ -15,7 +14,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  animation: bounce 1.8s infinite;
+  animation: bounce 1.8s;
 }
 .central__logo{
   margin-bottom: 37px;
@@ -23,10 +22,11 @@
 }
 .welcome__background{
   position: relative;
+  z-index: -1;
 }
 .welcome__image{
   position: absolute;
-  bottom: -870px;
+  bottom: -962px;
   left: -223px;
   filter: grayscale(100%);
 }
